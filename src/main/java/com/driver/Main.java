@@ -3,9 +3,11 @@ package com.driver;
 public class Main {
     public static void main(String[] args)
     {
-        RWOnly obj = new RWOnly("Initial Name");
+        RWOnly obj = new RWOnly();
 
-        obj.setName("New Name");
+        String name = "abc";
+         
+        obj.setName(name);
         System.out.println(obj.getName());
     }
 }
